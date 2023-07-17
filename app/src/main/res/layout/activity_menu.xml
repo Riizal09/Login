@@ -14,7 +14,8 @@
         android:background="@android:color/transparent"
         android:drawableRight="@drawable/img_teenagers_128"
         android:textColor="#fff"
-        android:text="Master Pemakai"></Button>
+        android:text="Forex"
+        android:id="@+id/tampilForexButton"></Button>
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
@@ -24,5 +25,25 @@
         android:drawableLeft="@drawable/student"
         android:text="Master Mahasiswa"
         android:id="@+id/mahasiswa"></Button>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/img"
+        android:textColor="#fff"
+        android:text="Cuaca"
+        android:id="@+id/tampilCuacaButton">
+    </Button>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnWeight="1"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/img"
+        android:textColor="#fff"
+        android:text="ImplisitIntent"
+        android:id="@+id/tampilImplisit">
+    </Button>
 
 </GridLayout>
